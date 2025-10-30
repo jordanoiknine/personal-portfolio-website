@@ -1,6 +1,6 @@
-# Jordan Oiknine Portfolio Site
+# MyPortfolio Site
 
-This is my portfolio website, built using Next.js 14, Typescript, and Tailwind, with much help from chatGPT and Cursor.
+Hey! This is my portfolio website showcasing some of the work I've done and higlighting my interests. Built using Next.js 14, Typescript, and Tailwind, with much help from chatGPT and Cursor.
 
 ## Dir Structure
 
