@@ -96,6 +96,34 @@ const AlternatingLeadershipSection = () => {
                         {role.description}
                       </p>
 
+                      {role.links?.highlights && (
+                        <div className="mb-6">
+                          <a
+                            href={role.links.highlights}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-block px-6 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors"
+                            onClick={(e) => e.stopPropagation()}
+                          >
+                            Check out my highlights →
+                          </a>
+                        </div>
+                      )}
+
+                      {role.links?.instagram && (
+                        <div className="mb-6">
+                          <a
+                            href={role.links.instagram}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-block px-6 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors"
+                            onClick={(e) => e.stopPropagation()}
+                          >
+                            Give us a follow! →
+                          </a>
+                        </div>
+                      )}
+
                       {/* Expanded Content */}
                       <AnimatePresence>
                         {isExpanded && (

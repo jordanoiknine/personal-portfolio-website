@@ -6,6 +6,9 @@ export interface Business {
   achievements: string[];
   impact: string;
   images?: string[];
+  links?: {
+    quote?: string;
+  };
 }
 
 export const businesses: Business[] = [
@@ -29,6 +32,9 @@ export const businesses: Business[] = [
       "/images/LawnLink/IMG_9039.PNG",
       "/images/LawnLink/IMG_9040.PNG",
     ],
+    links: {
+      quote: "mailto:jordanoik123@gmail.com?subject=Lawn%20Care%20Quote%20Request&body=Hey%20there%20Jordan!%0A%0AFound%20this%20link%20on%20your%20website%20and%20would%20love%20to%20get%20in%20touch%20about%20some%20lawn%20work%20I%20need%20taken%20care%20of.%20I%27ve%20heard%20that%20you%27re%20the%20best%20in%20town%20%3B%29%0A%0ASincerely,%0A%5Byour%20name%5D",
+    },
   },
   {
     id: "soccer-coaching",

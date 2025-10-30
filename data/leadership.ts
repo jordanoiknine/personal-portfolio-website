@@ -7,6 +7,10 @@ export interface Leadership {
   impact: string;
   achievements: string[];
   images?: string[];
+  links?: {
+    highlights?: string;
+    instagram?: string;
+  };
 }
 
 export const leadership: Leadership[] = [
@@ -32,6 +36,9 @@ export const leadership: Leadership[] = [
       "/images/Unicef/5.png",
       "/images/Unicef/6.png",
     ],
+    links: {
+      instagram: "https://www.instagram.com/ladue_unicef/",
+    },
   },
   {
     id: "soccer-captain",
@@ -52,6 +59,9 @@ export const leadership: Leadership[] = [
       "/images/soccer/2.PNG",
       "/images/soccer/3.PNG",
     ],
+    links: {
+      highlights: "https://www.youtube.com/channel/UCkHF7XICbBou7iF5nou8e4g",
+    },
   },
 ];
 

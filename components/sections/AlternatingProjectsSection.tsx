@@ -114,12 +114,13 @@ const AlternatingProjectsSection = () => {
                             >
                               <div
                                 className="prose prose-lg dark:prose-invert max-w-none 
-                                  prose-headings:font-bold prose-h2:text-2xl prose-h2:mt-8 prose-h2:mb-4 prose-h2:text-gray-900 dark:prose-h2:text-gray-100
-                                  prose-p:text-gray-600 dark:prose-p:text-gray-300 prose-p:leading-relaxed
+                                  prose-headings:font-bold prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h2:text-gray-900 dark:prose-h2:text-gray-100 prose-h2:font-bold
+                                  prose-p:text-gray-600 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-p:mb-6
                                   prose-ul:text-gray-600 dark:prose-ul:text-gray-300 prose-ul:space-y-2
                                   prose-li:text-lg prose-li:leading-relaxed
                                   [&_ul]:list-none [&_ul]:space-y-3 [&_li]:flex [&_li]:items-start [&_li]:gap-3
-                                  [&_li]:before:content-['→'] [&_li]:before:text-primary-600 dark:[&_li]:before:text-primary-400 [&_li]:before:text-xl [&_li]:before:mt-0.5 [&_li]:before:flex-shrink-0"
+                                  [&_li]:before:content-['→'] [&_li]:before:text-primary-600 dark:[&_li]:before:text-primary-400 [&_li]:before:text-xl [&_li]:before:mt-0.5 [&_li]:before:flex-shrink-0
+                                  [&_h2]:font-bold [&_h2]:mt-10"
                                 dangerouslySetInnerHTML={{ __html: project.fullDescription }}
                               />
 

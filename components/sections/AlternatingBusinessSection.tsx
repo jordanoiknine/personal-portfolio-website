@@ -92,6 +92,26 @@ const AlternatingBusinessSection = () => {
                         {business.description}
                       </p>
 
+                      {business.links?.quote && (
+                        <div className="mb-6">
+                          <a
+                            href={business.links.quote}
+                            className="inline-block px-6 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors"
+                            onClick={(e) => e.stopPropagation()}
+                          >
+                            Get a quote →
+                          </a>
+                        </div>
+                      )}
+
+                      {business.id === "soccer-coaching" && (
+                        <div className="mb-6">
+                          <p className="text-gray-500 dark:text-gray-400 italic text-sm">
+                            Not currently taking clients
+                          </p>
+                        </div>
+                      )}
+
                       {/* Expanded Content */}
                       <AnimatePresence>
                         {isExpanded && (

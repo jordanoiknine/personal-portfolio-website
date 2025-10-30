@@ -68,7 +68,7 @@ export default function Home() {
                     LinkedIn →
                   </a>
                   <a
-                    href="https://github.com"
+                    href="https://github.com/jordanoiknine"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
@@ -140,7 +140,7 @@ export default function Home() {
               Let&apos;s Connect
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-300 mb-12 max-w-2xl mx-auto">
-              If we share interests or you&apos;d like to collaborate, I&apos;d love to hear from you!
+              Always down to chat about biotech, building things, or just hear what you&apos;re working on. Shoot me a message if any of this resonates with you.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
@@ -148,7 +148,7 @@ export default function Home() {
                 href="mailto:jordanoik123@gmail.com"
                 className="px-8 py-4 bg-primary-600 text-white rounded-full font-medium hover:bg-primary-700 transition-all shadow-lg hover:shadow-xl transform hover:scale-105"
               >
-                Send an Email
+                Email me
               </a>
               <a
                 href="https://www.linkedin.com/in/jordan-oiknine-1a868a310/"
@@ -156,13 +156,13 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="px-8 py-4 bg-white dark:bg-gray-800 text-gray-900 dark:text-white rounded-full font-medium border-2 border-gray-300 dark:border-gray-700 hover:border-primary-600 dark:hover:border-primary-400 transition-all shadow-lg hover:shadow-xl transform hover:scale-105"
               >
-                Connect on LinkedIn
+                LinkedIn
               </a>
             </div>
 
             <div className="mt-16 pt-8 border-t border-gray-300 dark:border-gray-700">
               <p className="text-lg text-gray-600 dark:text-gray-400">
-                Looking forward to connecting with you!
+                Seriously, reach out. I&apos;d love to hear from you.
               </p>
             </div>
           </motion.div>
