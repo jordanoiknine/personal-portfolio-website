@@ -207,7 +207,7 @@ export default function Home() {
           </div>
 
           {/* Bottom Section */}
-          <div className="flex flex-col md:flex-row justify-between items-center gap-6 text-center md:text-left">
+          <div className="flex flex-col items-center gap-6 text-center">
             <div className="flex flex-col gap-2">
               <div className="text-lg font-medium">
                 © {new Date().getFullYear()} A Jordan Oiknine Production
@@ -215,15 +215,6 @@ export default function Home() {
               <div className="text-sm text-primary-100 dark:text-primary-300">
                 Made with the help of caffeine, cursor, and chatGPT
               </div>
-            </div>
-            <div className="text-lg">
-              Reach me at{" "}
-              <a
-                href="mailto:jordanoik123@gmail.com"
-                className="font-medium hover:text-primary-100 dark:hover:text-primary-300 underline decoration-2 underline-offset-4 transition-colors"
-              >
-                jordanoik123@gmail.com
-              </a>
             </div>
           </div>
         </div>
