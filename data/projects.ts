@@ -28,7 +28,7 @@ export const projects: Project[] = [
       <p>Athletes often push through muscle fatigue without precise data, increasing the risk of injury and limiting optimal performance. Current monitoring methods are either invasive, delayed, or lack real-time insights.</p>
       
       <h2>The Solution</h2>
-      <p>LactiSense uses enzymatic biosensors to measure lactic acid levels in real time, giving athletes and coaches actionable insights to optimize training and recovery. The system allows for safer, data-driven performance management.</p>
+      <p>LactaSense uses enzymatic biosensors to measure lactic acid levels in real time, giving athletes and coaches actionable insights to optimize training and recovery. The system allows for safer, data-driven performance management.</p>
       
       <h2>Business Model</h2>
       <ul>
@@ -39,7 +39,7 @@ export const projects: Project[] = [
       </ul>
       
       <h2>DECA Competition</h2>
-      <p>Presented LactiSense at DECA's international conference, competing against hundreds of entrepreneurship projects. Judges highlighted the innovative combination of biotechnology and practical business application.</p>
+      <p>Presented LactaSense at DECA's international conference, competing against hundreds of entrepreneurship projects. Judges highlighted the innovative combination of biotechnology and practical business application.</p>
       
       <h2>What I Learned</h2>
       <p>This project taught me that innovation isn't just about the technology—it's about understanding user needs, building a viable business model, and clearly communicating complex ideas. It's where my passion for biotech meets real-world entrepreneurship.</p>
@@ -54,7 +54,7 @@ export const projects: Project[] = [
     date: "2023-2024",
     links: {
       paper: "#",
-      patent: "https://drive.google.com/file/d/1MM3hIC8MCMSMTVsb5avwhQAXqZTtgbJ9/view?usp=sharing",
+      patent: "/LactaSense",
     },
   },
   {
@@ -92,7 +92,7 @@ export const projects: Project[] = [
     ],
     date: "2024",
     links: {
-      patent: "https://drive.google.com/file/d/1tTgtNXmTJbyVcDwgj_f_TXPIVNWrLIqt/view?usp=sharing",
+      patent: "/Impedix",
     },
   },
 ];

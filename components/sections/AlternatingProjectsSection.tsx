@@ -2,6 +2,7 @@
 
 import { motion, useScroll, useTransform, AnimatePresence } from "framer-motion";
 import { useRef, useState } from "react";
+import Link from "next/link";
 import { projects } from "@/data/projects";
 import PhotoStack from "@/components/ui/PhotoStack";
 
@@ -90,15 +91,25 @@ const AlternatingProjectsSection = () => {
 
                         {project.links?.patent && (
                           <div className="mb-6">
-                            <a
-                              href={project.links.patent}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="inline-block px-6 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors"
-                              onClick={(e) => e.stopPropagation()}
-                            >
-                              View the full provisional patent →
-                            </a>
+                            {project.links.patent.startsWith("/") ? (
+                              <Link
+                                href={project.links.patent}
+                                className="inline-block px-6 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors"
+                                onClick={(e) => e.stopPropagation()}
+                              >
+                                View the full provisional patent →
+                              </Link>
+                            ) : (
+                              <a
+                                href={project.links.patent}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-block px-6 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors"
+                                onClick={(e) => e.stopPropagation()}
+                              >
+                                View the full provisional patent →
+                              </a>
+                            )}
                           </div>
                         )}
 
