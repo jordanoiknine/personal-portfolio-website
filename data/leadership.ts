@@ -23,7 +23,7 @@ export const leadership: Leadership[] = [
       "Serving as president of our school's UNICEF chapter, I lead a 12-person officer board and a team of volunteers dedicated to making a global impact. We've organized over 20 fundraisers—including three school dances—awareness campaigns, and volunteer initiatives that support children worldwide.",
     impact: "$50,000+ raised • 486 signed up members",
     achievements: [
-      "Led a 12-person officer board and 20+ active volunteers",
+      "Led a 12-person officer board and hundreds of active volunteers",
       "Organized over 20 fundraising events, including 3 school dances",
       "Raised over $50,000 for global children's initiatives",
       "Expanded chapter engagement and visibility across campus",
