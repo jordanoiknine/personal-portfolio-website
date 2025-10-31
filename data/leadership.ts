@@ -55,9 +55,9 @@ export const leadership: Leadership[] = [
       "Balance rigorous athletics with intense academics",
     ],
     images: [
-      "/images/soccer/1.PNG",
-      "/images/soccer/2.PNG",
-      "/images/soccer/3.PNG",
+      "/images/Soccer/1.PNG",
+      "/images/Soccer/2.PNG",
+      "/images/Soccer/3.PNG",
     ],
     links: {
       highlights: "https://www.youtube.com/channel/UCkHF7XICbBou7iF5nou8e4g",
