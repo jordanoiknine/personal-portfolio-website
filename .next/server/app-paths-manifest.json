@@ -1,5 +1,4 @@
 {
   "/page": "app/page.js",
-  "/LactaSense/page": "app/LactaSense/page.js",
-  "/Impedix/page": "app/Impedix/page.js"
+  "/LactaSense/page": "app/LactaSense/page.js"
 }

@@ -84,8 +84,9 @@ export default function Home() {
                     Instagram →
                   </a>
                   <a
-                    href="/resume.pdf"
+                    href="/Resume.pdf"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
                   >
                     Resume →

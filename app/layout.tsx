@@ -16,6 +16,11 @@ export const metadata: Metadata = {
   description: "High school student passionate about biotech, leadership, and community service. Soccer athlete, UNICEF club leader, and entrepreneur.",
   keywords: ["portfolio", "student", "biotech", "leadership", "UNICEF", "soccer"],
   authors: [{ name: "Jordan Oiknine" }],
+  icons: {
+    icon: "/images/logo.png",
+    shortcut: "/images/logo.png",
+    apple: "/images/logo.png",
+  },
   openGraph: {
     title: "Jordan Oiknine",
     description: "High school student passionate about biotech, leadership, and community service.",
